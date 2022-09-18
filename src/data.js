@@ -192,6 +192,6 @@ export const footerData = {
 };
 
 export const copyrightData = {
-  text: '© Solution Storage, 2020. All rights reserved.',
+  text: '© Solution Storage, 2022. All rights reserved.',
   icon: <BsChatDotsFill />,
 };
