@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import components
-import TestimonialSlider from '../components/TestimonialSlider';
+import TestimonialSlider from '../components/TestimonialsSlider';
 
 const Testimonials = () => {
   return (

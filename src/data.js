@@ -132,9 +132,9 @@ export const ctaData = {
 
 export const footerData = {
   logo: LogoV2,
-  address: 'Warehouse Society, 234 Bahagia Ave Street PRBW 29281',
-  email: 'info@warehouse.project',
-  phone: '1-232-3434 (Main)',
+  address: 'Some address, Utopia FL, USA',
+  email: 'helloWorld@email.com',
+  phone: '555-555-5555',
   list1: [
     {
       name: 'Profile',
@@ -192,6 +192,6 @@ export const footerData = {
 };
 
 export const copyrightData = {
-  text: '© Datawarehouse™, 2020. All rights reserved. Company Registration Number: 21479524.',
+  text: '© Solution Storage, 2020. All rights reserved.',
   icon: <BsChatDotsFill />,
 };

@@ -1,13 +1,22 @@
 import React from 'react';
 
-const Navbar = () => {
+// import navigation data
+import { navigationData } from '../data';
+
+const Nav = () => {
   return (
-    <div>
-      <div>
-        <h1>About</h1>
-      </div>
-    </div>
+    <nav>
+      <ul className="flex gap-x-8">
+        {navigationData.map((item, index) => {
+          return (
+            <li key={index}>
+              <a href={item.href}>{item.name}</a>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
   );
 };
 
-export default Navbar;
+export default Nav;
